@@ -2,6 +2,8 @@
 # out the current state.
 def display_board(board)
   board
-  rows = [" #{1} | #{2} | #{3} "],["-----------"],[" #{4} | #{board[5]} | #{6} "],["-----------"],[" #{7} | #{8} | #{9} "]
+  rows = [" #{board[1]} | #{board[2]} | #{board[3]} "],["-----------"],
+  [" #{board[4]} | #{board[5]} | #{board[6]} "],["-----------"],
+  [" #{board[7]} | #{board[8]} | #{board[9]} "]
   puts rows
 end
